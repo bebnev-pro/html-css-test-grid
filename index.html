@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Adventure</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
+	<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+	<script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+	<div id="cover">
+		<div id="videoScreen">
+			<span class="slide__icon slide__icon_close"></span>
+			<div class="video">
+			</div>
+		</div>
+	</div>
+	<div id="wrap">
+		<header>
+			<a href="index.html" class="logo">
+				adventure
+				<span class="logo_ps">оставь свой след, где его еще нет</span>
+			</a>
+			<div class="overlay"></div>
+		</header>
+		<div class="filters">
+			<span class="filters__button active" data-filter-by="*">все страны</span>
+			<span class="filters__button" data-filter-by=".culture">культура</span>
+			<span class="filters__button" data-filter-by=".extreme">экстрим</span>
+			<span class="filters__button" data-filter-by=".atmosphere">атмосфера</span>
+			<span class="filters__button" data-filter-by=".people">люди</span>
+		</div>
+		<div class="content">
+			<div class="item culture">
+				<div class="slides">
+					<div class="lazy slide" data-original="images/photo-cuba1.png">Cuba</div>
+					<div class="slide slide_cuba2">
+						<p class="slide__text">
+							Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире. Почему же он 22 года прожил в Гаване? Потому что это свобода!
+						</p>
+						<h6 class="slide__header">Cuba</h6>
+					</div>
+					<div class="lazy slide" data-original="images/photo-cuba3.png">
+						<span class="slide__icon slide__icon_zoom"></span>
+						<h6 class="slide__header">Cuba</h6>
+					</div>
+					<div data-original="images/photo-cuba4.png" class="lazy slide">
+						<span class="slide__icon slide__icon_play"></span>
+						<h6 class="slide__header">Cuba</h6>
+					</div>
+				</div>
+				<div class="controls">
+					<span class="prev-slide"></span>
+					<span class="next-slide"></span>
+				</div>
+			</div>
+			<div class="item culture">
+				<div class="slides">
+					<div data-original="images/photo-russia.png" class="lazy slide">Russia</div>
+				</div>
+				<div class="controls">
+					<span class="prev-slide"></span>
+					<span class="next-slide"></span>
+				</div>
+			</div>
+			<div class="item active culture">
+				<div class="slides">
+					<div data-original="images/photo-latin-america.png" class="lazy slide">
+						Latin America
+						<ol class="item__list">
+							<li>Honduras</li>
+							<li>Columbia</li>
+							<li>Panama</li>
+							<li>Brazil</li>
+							<li>Peru</li>
+						</ol>
+					</div>
+				</div>
+				<div class="controls">
+					<span class="prev-slide"></span>
+					<span class="next-slide"></span>
+				</div>
+			</div>
+			<div class="item extreme">
+				<div class="slides">
+					<div data-original="images/photo-england.png" class="lazy slide">England</div>
+				</div>
+				<div class="controls">
+					<span class="prev-slide"></span>
+					<span class="next-slide"></span>
+				</div>
+			</div>
+			<div class="item extreme">
+				<div class="slides">
+					<div data-original="images/photo-norway.png" class="lazy slide">Norway</div>
+				</div>
+				<div class="controls">
+					<span class="prev-slide"></span>
+					<span class="next-slide"></span>
+				</div>
+			</div>
+			<div class="item extreme">
+				<div class="slides">
+					<div data-original="images/photo-switzerland.png" class="lazy slide">Switzerland</div>
+				</div>
+				<div class="controls">
+					<span class="prev-slide"></span>
+					<span class="next-slide"></span>
+				</div>
+			</div>
+			<div class="item atmosphere">
+				<div class="slides">
+					<div data-original="images/photo-china.png" class="lazy slide ">China</div>
+				</div>
+				<div class="controls">
+					<span class="prev-slide"></span>
+					<span class="next-slide"></span>
+				</div>
+			</div>
+			<div class="item atmosphere">
+				<div class="slides">
+					<div data-original="images/photo-germany.png" class="lazy slide">Germany</div>
+				</div>
+				<div class="controls">
+					<span class="prev-slide"></span>
+					<span class="next-slide"></span>
+				</div>
+			</div>
+			<div class="item atmosphere">
+				<div class="slides">
+					<div data-original="images/photo-japan.png" class="lazy slide">Japan</div>
+				</div>
+				<div class="controls">
+					<span class="prev-slide"></span>
+					<span class="next-slide"></span>
+				</div>
+			</div>
+			<div class="item people">
+				<div class="slides">
+					<div data-original="images/photo-australia.png" class="lazy slide">Australia</div>
+				</div>
+				<div class="controls">
+					<span class="prev-slide"></span>
+					<span class="next-slide"></span>
+				</div>
+			</div>
+			<div class="item people">
+				<div class="slides">
+					<div data-original="images/photo-india.png" class="lazy slide">India</div>
+				</div>
+				<div class="controls">
+					<span class="prev-slide"></span>
+					<span class="next-slide"></span>
+				</div>
+			</div>
+			<div class="item people">
+				<div class="slides">
+					<div data-original="images/photo-finland.png" class="lazy slide">Finland</div>
+				</div>
+				<div class="controls">
+					<span class="prev-slide"></span>
+					<span class="next-slide"></span>
+				</div>
+			</div>
+			<div class="item people">
+				<div class="slides">
+					<div data-original="images/photo-new-zealand.png" class="lazy slide">New Zealand</div>
+				</div>
+				<div class="controls">
+					<span class="prev-slide"></span>
+					<span class="next-slide"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<span class="copyright">&copy; 2013-2015</span>
+		<div class="creative-people">
+			Здесь наследили <a href="http://cpeople.ru/" class="creative-people_link">CreativePeople</a>
+		</div>
+	</footer>
+</body>
+
+</html>
